@@ -7,14 +7,6 @@ A new Flutter project.
 
 ![screenshot_manajemen plugin](images/image.png)
 
-1. Penjelasan Langkah 2 (Menambahkan Plugin)
-Maksud dari langkah 2 adalah melakukan instalasi library atau package pihak ketiga dari pub.dev (pusat package Flutter) ke dalam proyek lokal kita. Perintah flutter pub add auto_size_text secara otomatis akan:
-
-Menambahkan dependensi auto_size_text ke dalam file pubspec.yaml.
-
-Mengunduh source code plugin tersebut agar fungsi-fungsi AutoSizeText dapat digunakan di dalam kode Dart kita.
-
-Siap, Sukma! Ini draf jawaban untuk Tugas Praktikum nomor 1 sampai 4 yang bisa kamu masukkan ke dalam file README.md dan laporan praktikummu.
 
 Jawaban Tugas Praktikum
 1. Penjelasan Langkah 2 (Menambahkan Plugin)
