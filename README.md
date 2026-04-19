@@ -10,20 +10,19 @@ A new Flutter project.
 
 Jawaban Tugas Praktikum
 1. Penjelasan Langkah 2 (Menambahkan Plugin)
-Maksud dari langkah 2 adalah melakukan instalasi library atau package pihak ketiga dari pub.dev (pusat package Flutter) ke dalam proyek lokal kita. Perintah flutter pub add auto_size_text secara otomatis akan:
+melakukan instalasi library atau package pihak ketiga dari pub.dev (pusat package Flutter) ke dalam proyek lokal kita. secara otomatis akan:
 
 Menambahkan dependensi auto_size_text ke dalam file pubspec.yaml.
 
 Mengunduh source code plugin tersebut agar fungsi-fungsi AutoSizeText dapat digunakan di dalam kode Dart kita.
 
 2. Penjelasan Langkah 5 (Variabel text dan Parameter Constructor)
-Maksud dari langkah 5 adalah membuat widget RedTextWidget menjadi dinamis dan reusable (dapat digunakan berulang kali).
+membuat widget RedTextWidget menjadi dinamis dan reusable (dapat digunakan berulang kali).
 
 Variabel text: Berfungsi sebagai wadah penyimpan data string yang akan ditampilkan.
 
 Constructor (required this.text): Berfungsi sebagai "pintu masuk" data. Dengan kata kunci required, kita mewajibkan siapapun yang memanggil RedTextWidget untuk mengirimkan data teks, sehingga satu widget yang sama bisa menampilkan tulisan yang berbeda-beda tergantung input yang diberikan.
 
-Oke, Sukma! Berikut adalah penjelasan poin-poin untuk nomor 3 agar lebih mudah dibaca dan dimasukkan ke dalam laporan:
 
 3. Fungsi dan Perbedaan Dua Widget pada Langkah 6
 Widget RedTextWidget (Kotak Kuning):
@@ -48,10 +47,6 @@ style: Digunakan untuk mengatur dekorasi teks, seperti warna (Colors.red) dan uk
 maxLines: Menentukan batas maksimal baris yang diizinkan. Jika diset 2, maka teks hanya akan memenuhi maksimal dua baris meskipun teks aslinya sangat panjang.
 
 overflow: Menentukan apa yang terjadi jika teks tetap tidak muat setelah ukurannya sudah mengecil maksimal. TextOverflow.ellipsis akan memberikan efek titik tiga (...) di akhir teks yang terpotong.
-
-Waduh, maaf ya Sukma! Langsung gas ke nomor 5. Tadi sudah ada poin-poinnya, sekarang kita perdalam sesuai dokumentasi yang kamu kasih supaya dosenmu kasih nilai penuh.
-
-Berikut adalah penjelasan Maksud tiap parameter pada plugin auto_size_text untuk laporanmu:
 
 5. Penjelasan Parameter Plugin auto_size_text
 Berdasarkan dokumentasi resmi, berikut adalah fungsi dari masing-masing parameter yang digunakan untuk mengatur bagaimana teks menyesuaikan diri:
